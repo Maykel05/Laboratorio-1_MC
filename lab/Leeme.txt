@@ -1,0 +1,42 @@
+----->By: Luis Coppola && Maykel Carballo<-----
+
+Decidimos no usar la  libreria proporcionada de Form ya que preferimos asumir la totalidad de los fallos sobre el software, tambien que de este modo se nos hizo mas facil manipular el codigo
+La interfaz tiene diferencias segun la propuesta:
+
+----------------------------------------------------------------------------------
+
+Ingrese Nombre Del campeonato:
+copa
+Cantidad de jugadores (5-7-11)
+#se ingresa la cantidad de jugadores a que definira el tipo de campeonato en caso de ser un valor #no valido se volvera a repetir la consulta de ingreso de datos actual
+
+-----------------------------------------------------------------------------------
+
+Ingresar Datos:
+  1. Agregar un nuevo jugador
+  2. Agregar un nuevo equipo
+  3. Agregar jugador a equipo
+
+Consultas:
+  4. Ver jugadores ingresados
+  5. Ver equipos ingresados
+  6. Ver jugadores de un equipo
+
+Campeonato:
+  7. Comenzar campeonato con los equipos disponibles
+
+  8. Salir
+> 1
+Ingrese Nombre
+pepe
+Ingrese Cedula de Indentidad
+5.314.097-2                      #la cedula de identidad solo aceptara formato real de no ser asi
+cedula de identidad valida                 #se repetira la peticion
+desea asignar cuadro ahora? (si/no)	#damos la opcion al usuario de poder asignar un equipo al
+si					#jugador en el momento de crearse asi se le hace al 
+Equipo al que pertenece			#usuario mas facil la utilizacion del software
+team1
+
+------------------------------------------------------------------------------------
+
+El sistema en casos solo permite el ingreso de datos del tipo que corresponde, por ejemplo: al momento de asignar la cantidad de goles echos en un partido el sistema solo permitira el ingreso de numeros y nada mas que numeros
